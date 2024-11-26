@@ -1,0 +1,16 @@
+{%extends 'base.html'%}
+
+{%block titolo%}
+    Contact
+{%endblock%}
+
+{%block contenuto%}
+    <h1>Contattaci</h1>
+    <p>Se hai domande o hai bisogno di ulteriori informazioni, non esitare a contattarci utilizzando il modulo sottostante.</p>
+    <form action="#" method="post">
+        <input type="text" name="name" placeholder="Il tuo nome" required>
+        <input type="email" name="email" placeholder="La tua email" required>
+        <textarea name="message" rows="5" placeholder="Il tuo messaggio" required></textarea>
+        <button type="submit">Invia</button>
+    </form>
+{%endblock%}
